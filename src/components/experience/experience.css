@@ -1,0 +1,39 @@
+.section__experience {
+  position: relative;
+  margin-left: 7%;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 30vh;
+  color: white;
+
+}
+.section__p--tittleE {  
+  display: flex;
+  margin-left: 1.2rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color:  rgb(201, 0, 0);
+
+}
+
+/* .div__section--content{
+
+}  */
+/* .ul__section--content{
+
+}  */
+
+.section__li--tittle{
+  font-family: monospace;
+  font-size: 2rem;
+  list-style: none;
+  line-height: 3rem;
+}
+.section__li--content {
+  font-family: monospace;
+  font-size: 1.5rem;
+  list-style: none;
+}

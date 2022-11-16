@@ -1,0 +1,66 @@
+.section__aboutMe {
+  position: relative;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  min-height: 40rem;
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+
+.section__p--tittle {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  padding: 1.6rem;
+  color:  rgb(201, 0, 0);
+  
+}
+.section__p--content {
+  display: flex;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: monospace;
+  line-height: 2rem;
+}
+.div__ul--habilities {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-size: 100rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  
+}
+.div__li--habilities {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: monospace;
+  list-style: none; 
+}
+.div__li--habilities::before {
+    content: "\2022"; 
+    padding-right: 8px; 
+    color:  rgb(201, 0, 0);
+}
+/* .div__section--image {
+
+} */
+.section__div--i {
+  margin-top:10rem;
+  margin-left: 4rem;
+  background-color: aliceblue;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+  border: 2px solid white;
+  color:  rgb(201, 0, 0);
+}

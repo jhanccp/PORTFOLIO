@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-margin-top: 10ex; 
+}
+.body {
+  padding: 1rem 6rem;
+}
+.body__index {
+  background-image: url('./../src/assets/bg.png');
+  animation: blink 1s infinite backwards steps(1);
+}
+@keyframes blink{
+  to{
+    color: black;
+    text-shadow: none;
+  }
+}
+
+.body__index::-webkit-scrollbar {
+  width: 15px;    
+  height: 8px;
+}
+.body__index::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(201, 0, 0);
+}
+.body__index::-webkit-scrollbar-thumb:active {
+  background-color:  rgb(201, 0, 0);
+}
+.body__index::-webkit-scrollbar-track {
+  background-color:  black;
+  border-radius: 4px;
+}
+
+

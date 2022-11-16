@@ -1,0 +1,32 @@
+.section__div--container {
+  width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  min-height: 40vh;
+  align-content: center;
+}
+
+.section__div--card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: solid 3px black;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+  transition: all 400ms ease;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+.section__div--card:hover {
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3%);
+}
