@@ -1,13 +1,14 @@
 .section__home {
   position: relative;
-  width: 90%;
+  width: 60rem;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 10rem;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column;
   min-height: 27rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 /* .section__ul{
 } */
@@ -23,7 +24,7 @@
   font-size: 6rem;
   list-style: none;
   font-weight: 600;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   line-height: 5rem;
 }
 .section__li--profesion {
@@ -31,8 +32,7 @@
   font-size: 3.5rem;
   font-weight: 600;
   list-style: none;
-  margin-top: .8rem;
-
+  margin-top: 0.8rem;
 }
 .section__li--text {
   font-family: monospace;
@@ -41,6 +41,6 @@
   font-weight: 500;
   margin-top: 1rem;
 }
-.color{
-  color:  rgb(201, 0, 0);
+.color {
+  color: rgb(201, 0, 0);
 }

@@ -10,8 +10,8 @@ export default function Home() {
         <li className="section__li--profesion"><label className="color">Im</label> a developer of web software and experiences.</li>
         <li className="section__li--text">
           I am a web developer specialized in the creation of
-          <br /> web experiences focused mainly on offering an excellent
-          experience
+          web experiences focused mainly on offering an excellent
+          experience.
         </li>
       </ul>
     </section>

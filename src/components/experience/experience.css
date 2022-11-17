@@ -1,22 +1,20 @@
 .section__experience {
   position: relative;
   margin-left: 7%;
-  display: flex;
   margin-top: 5rem;
-  justify-content: start;
-  align-items: flex-start;
+  display: inline-flex;
   flex-direction: column;
-  min-height: 30vh;
+  flex-wrap: wrap;
   color: white;
-
+  min-width: 50rem;
 }
-.section__p--tittleE {  
+.section__p--tittleE {
   display: flex;
+  justify-content: flex-start;
   margin-left: 1.2rem;
   font-size: 3.5rem;
   font-weight: 600;
-  color:  rgb(201, 0, 0);
-
+  color: rgb(201, 0, 0);
 }
 
 /* .div__section--content{
@@ -26,7 +24,7 @@
 
 }  */
 
-.section__li--tittle{
+.section__li--tittle {
   font-family: monospace;
   font-size: 2rem;
   list-style: none;
@@ -37,3 +35,6 @@
   font-size: 1.5rem;
   list-style: none;
 }
+
+/* justify-content: flex-start;
+align-items: flex-start; */
