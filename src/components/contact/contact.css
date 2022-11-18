@@ -1,6 +1,6 @@
 .footer__form {
-  width: 70%;
-  margin-left: 15%;
+  width: 50rem;
+  margin-left: 20%;
   color: white;
   background-color: #ffffff;
   margin-top: 4rem;
@@ -14,7 +14,7 @@
 .footer__div--form {
   background-color: #000000;
   padding: 2rem;
-  color:  rgb(201, 0, 0);
+  color: rgb(201, 0, 0);
 }
 
 .footer__h1 {
@@ -31,8 +31,6 @@
   text-align: center;
 }
 
-
-
 .footer__div--form form button {
   background-color: #000000;
   position: relative;
@@ -46,7 +44,7 @@
   list-style: none;
   overflow: hidden;
   transition: 0.1s;
-  color:  white;
+  color: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   transition: all 400ms ease;
   border: 1px solid white;
@@ -54,7 +52,9 @@
 
 .footer__div--form form button:hover {
   cursor: pointer;
-  color:  rgb(201, 0, 0);
+  color: rgb(201, 0, 0);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  transform:translateY(-5%);
+  transform: translateY(-5%);
 }
+
+
