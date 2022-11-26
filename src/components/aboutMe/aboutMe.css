@@ -2,12 +2,9 @@
   position: relative;
   color: white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  margin-top: 5rem;
-  min-height: 40rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin-top: 10%;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: -4rem;
 }
 
 .section__p--tittle {
@@ -19,6 +16,11 @@
   line-height: 5rem;
   padding: 1.6rem;
   color: rgb(201, 0, 0);
+}
+.div__aboutMe{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .section__p--content {
   display: flex;
@@ -52,7 +54,7 @@
 
 } */
 .section__div--i {
-  margin-top: 25%;
+  margin-top: 2rem;
   margin-left: 4rem;
   background-color: aliceblue;
   width: 20rem;
@@ -60,11 +62,20 @@
   border-radius: 100%;
   border: 2px solid white;
   color: rgb(201, 0, 0);
+  background-color: aqua;
 }
 
-@media (max-width: 900px) {
-  .section__aboutMe{
-    width: 13rem;
-    grid-template-columns: 30rem 1fr max-content;
+@media (max-width: 360px) {
+  .section__aboutMe {
+    margin-top: 25%;
+    margin-left: 0.2rem;
+  }
+  .div__ul--habilities {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__div--i {
+    margin-left: 1rem;
+    margin-top: 5%;
   }
 }

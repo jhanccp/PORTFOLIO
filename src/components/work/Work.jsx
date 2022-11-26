@@ -8,6 +8,7 @@ export default function Work() {
         <div className="section__div--card">Proyect </div>
         <div className="section__div--card"> Proyect </div>
         <div className="section__div--card"> Proyect </div>
+
       </div>
     </section>
   );

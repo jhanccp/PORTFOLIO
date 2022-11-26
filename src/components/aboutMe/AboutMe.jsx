@@ -1,10 +1,11 @@
 import React from "react";
 import "./aboutMe.css";
 
+
 export default function AboutMe() {
   return (
     <section className="section__aboutMe" id="section__aboutMe">
-      <div>
+      <div className="div__aboutMe">
         <p className="section__p--tittle">About Me</p>
         <p className="section__p--content">
           Hello my name is Jhan Carlo, I am currently a student and I live in
@@ -26,7 +27,6 @@ export default function AboutMe() {
       </div>
 
       <div className="section__div--i">
-        <img />
       </div>
     </section>
   );

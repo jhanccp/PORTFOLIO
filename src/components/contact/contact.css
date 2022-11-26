@@ -1,9 +1,9 @@
 .footer__form {
-  width: 50rem;
-  margin-left: 20%;
+  width: 100%;
   color: white;
   background-color: #ffffff;
-  margin-top: 4rem;
+  margin-top: 10%;
+  margin-left: 1rem;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -57,4 +57,13 @@
   transform: translateY(-5%);
 }
 
+@media (max-width:360px){
+  .footer__form {
+    margin-top: 25%;
+  }
+  .footer__div--form form button{
+    width: 14rem;
+    margin-top: 1rem;
+  }
+}
 

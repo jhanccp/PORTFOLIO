@@ -6,6 +6,7 @@
   position: fixed;
   top: 60%;
   left: 1%;
+
 }
 .section__li--social{
   overflow: hidden;
@@ -28,6 +29,10 @@
 .section__img {
   width: 2rem;
   filter: invert(11) sepia(1) hue-rotate(20deg) saturate(100%) ;
+}
 
-
+@media(max-width:360px){
+  .section__barSocial{
+    display: none;
+  }
 }

@@ -1,10 +1,10 @@
 .section__home {
   position: relative;
-  margin-left: 7%;
-  margin-top: 5rem;
-  width: 57rem;
+  width: 100%;
   display: flex;
   color: white;
+  flex-wrap: wrap;
+  margin-top: -4%;
 }
 /* .section__ul{
 } */
@@ -39,4 +39,25 @@
 }
 .color {
   color: rgb(201, 0, 0);
+}
+
+@media (max-width:360px) {
+  /* .section__home{
+
+  } */
+  .section__li--greet {
+    font-size: 1.5rem;
+
+  }
+  .section__li--name {
+    line-height: 4rem;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .section__li--profesion{
+    font-size: 2.5rem;
+  }
+  .section__li--text{
+    font-size: 1rem;
+  }
 }

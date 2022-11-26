@@ -2,12 +2,13 @@
   background-color: black;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 104vh;
   z-index: 5;
   transition: all 3s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -5.9rem;
 }
 
 .loader,
