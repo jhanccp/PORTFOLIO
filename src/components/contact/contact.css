@@ -60,9 +60,11 @@
 @media (max-width:360px){
   .footer__form {
     margin-top: 25%;
+    margin-left: 0;
   }
+
   .footer__div--form form button{
-    width: 14rem;
+    width: 15rem;
     margin-top: 1rem;
   }
 }

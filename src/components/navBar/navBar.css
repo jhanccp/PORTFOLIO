@@ -66,17 +66,25 @@
   color: rgb(219, 44, 44);
 }
 
+@media (max-width:480px) {
+  .header__main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15%;
+  }
+}
+
 
 @media (max-width:360px) {
   .header__main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    gap: 0;
   }
   .header__a{
     display: none;
-
   }
 
   .header__a--nav {
@@ -91,7 +99,7 @@
     transition: all 400ms ease;
     font-size: 1.4rem;
     margin-left: -1rem;
-    padding: 0.8rem ;
+    padding: 0.5rem ;
     color: white;
     text-align: center;
     border: solid 2px rgb(201, 0, 0);

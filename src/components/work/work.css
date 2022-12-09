@@ -10,6 +10,11 @@
   position: relative;
   grid-auto-rows: 13rem;
 }
+.section__p--work{
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(201, 0, 0);
+}
 
 .section__div--card {
   display: flex;
@@ -29,10 +34,27 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   transform: translateY(-3%);
 }
+@media (max-width: 480px) {
+  .section__div--container {
+    margin-top: 8rem;
+    margin-left: 25%;
+  }
+}
 
 @media (max-width: 360px) {
+  .section__work{
+    margin-top: 25%;
+  }
+  .section__p--work{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgb(201, 0, 0);
+    margin-left: 4rem;
+    
+  }
   .section__div--container {
     padding: 2rem;
     margin-top: 25%;
+    margin-left: .1rem;
   }
 }
