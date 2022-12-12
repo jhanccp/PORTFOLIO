@@ -3,7 +3,7 @@
   color: white;
   display: flex;
   margin-top: 10%;
-  margin-left: -4rem;
+  margin-left: -2rem;
 }
 
 .section__p--tittle {
@@ -52,8 +52,15 @@
 
 } */
 
+@media (max-width: 768px) {
+  .section__aboutMe{
+    width: 45rem;
+  }
+}
+
 @media (max-width: 480px) {
   .section__aboutMe {
+    width: 30rem;
     margin-left: 3rem;
     margin-top: 7rem;
   }
@@ -73,8 +80,11 @@
   }
 }
 
+
+
 @media (max-width: 360px) {
   .section__aboutMe {
+    width: 22rem;
     margin-top: 25%;
     margin-left: -1rem;
   }

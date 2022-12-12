@@ -1,4 +1,5 @@
 .section__experience {
+
   position: relative;
   margin-top: 6%;
   width: 100%;
@@ -9,7 +10,6 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-left: 1.2rem;
   font-size: 3.5rem;
   font-weight: 600;
   color: rgb(201, 0, 0);
@@ -23,6 +23,7 @@
 }  */
 
 .section__li--tittle {
+  margin-left: -1rem;
   font-family: monospace;
   font-size: 2rem;
   list-style: none;
@@ -30,10 +31,14 @@
 }
 .section__li--content {
   width: 50rem;
-  font-family: monospace;
-  font-size: 1.5rem;
   list-style: none;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: monospace;
+  line-height: 2rem;
 }
+ 
 
 @media (max-width: 480px) {
   .section__experience {
@@ -48,6 +53,7 @@
   .section__li--tittle {
     font-size: 2.5rem;
     line-height: 3rem;
+    margin-top: 4rem;
   }
 }
 
@@ -63,6 +69,7 @@
   .section__li--tittle {
     font-size: 1.8rem;
     margin-top: 25%;
+    margin-left: 1rem;
   }
   .section__li--content {
     font-size: 1.2rem;

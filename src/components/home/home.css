@@ -39,11 +39,16 @@
   color: rgb(201, 0, 0);
 }
 
+@media (max-width:895px){
+  .section__home{
+    width: 45rem;
+  }
+}
 @media (max-width:480px){
   .section__home{
     width: 39rem;
     margin-left: 3rem;
-    margin-top: 6rem;
+    margin-top: 3.5rem;
   } 
   .section__li--greet {
     font-size: 2.6rem;
@@ -83,6 +88,6 @@
   }
   .section__li--text{
     font-size: 1.2rem;
-    line-height: 2.8rem;
+    line-height: 2.4rem;
   }
 }
